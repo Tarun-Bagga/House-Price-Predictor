@@ -12,8 +12,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Model Files
-model/*.pkl
-
 # Jupyter
 .ipynb_checkpoints/

@@ -7,7 +7,7 @@ def load_data():
     df = pd.read_csv("data/house_prices.csv")
     return df
 
-"""def explore_data(df):
+def explore_data(df):
     print("\n Dataset Shape: ")
     print(df.shape)
 
@@ -75,7 +75,7 @@ def plot_correlation_heatmap(df):
         bbox_inches="tight"
     )
 
-    plt.show()"""
+    plt.show()
 
 def plot_price_vs_area(df):
     plt.figure(figsize = (10,6))
@@ -125,10 +125,10 @@ def plot_furnishing_status(df):
 
 def main():
     df = load_data()
-    """explore_data(df)
+    explore_data(df)
 
     plot_price_distillation(df)
-    plot_correlation_heatmap(df)"""
+    plot_correlation_heatmap(df)
     plot_price_vs_area(df)
     plot_furnishing_status(df)
 
