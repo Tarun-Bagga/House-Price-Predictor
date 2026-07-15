@@ -101,10 +101,11 @@ House-Price-Predictor/
 │   └── model_features.pkl
 
 ├── images/
-│   ├── correlation_heatmap.png
-│   ├── furnishing_status.png
-│   ├── price_distribution.png
-│   └── price_vs_area.png
+│   └── charts
+│       ├── correlation_heatmap.png
+│       ├── furnishing_status.png
+│       ├── price_distribution.png
+│       └── price_vs_area.png
 
 └── screenshots/
     ├── home.png
